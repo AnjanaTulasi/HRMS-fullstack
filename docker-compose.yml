@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres:16
+    container_name: hrms_postgres
+    environment:
+      POSTGRES_USER: hrms
+      POSTGRES_PASSWORD: hrms123
+      POSTGRES_DB: hrmsdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
