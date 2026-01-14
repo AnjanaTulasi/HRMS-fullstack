@@ -159,7 +159,7 @@ export default function App() {
         </div>
       </Section>
 
-      <Section title="Leave Requests">
+      <Section title="Leave Requests of employees">
         <div style={{ overflowX: "auto" }}>
           <table border="1" cellPadding="8" style={{ width: "100%", borderCollapse: "collapse" }}>
             <thead>
